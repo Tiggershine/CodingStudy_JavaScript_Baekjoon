@@ -5,6 +5,6 @@
 // [ Solution as NodeJS ]
 
 
-const inputYear = require('fs').readFileSync('/dev/stdin').toString().map(Number);
+const buddhistYear = require('fs').readFileSync('/dev/stdin').toString().map(Number);
 
-console.log(inputYear - (2541 - 1998));
+console.log(buddhistYear - (2541 - 1998));
