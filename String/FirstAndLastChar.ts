@@ -5,6 +5,7 @@
 // Output: AE\n OO\n AB
 
 // [ Solution as NodeJS ]
+
 const inputString = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 
 for (let i = 1; i < inputString.length; i++) {
