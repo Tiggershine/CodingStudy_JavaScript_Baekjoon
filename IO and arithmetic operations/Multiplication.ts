@@ -2,7 +2,7 @@
 // Find the value of each line that occurs during the computation of the multiplication.
 // Example - input: 472 385, output: 2360 3776 1416 181720
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
 
 const [C, D] = require('fs').readFileSync('/dev/stdin').toString().split('\n');

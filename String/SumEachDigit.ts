@@ -4,14 +4,14 @@
 // Input: 5\n 54321
 // Output: 15
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
-const [A, B] = require('fs').readFileSync('/dev/stdin').toString().split('\n');
+const [A1, B1] = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 
 let result = 0;
 
-for (let i = 0; i < B.length; i++) {
-  result += parseInt(B.charAt(i));
+for (let i = 0; i < B1.length; i++) {
+  result += parseInt(B1.charAt(i));
 }
 
 console.log(result);

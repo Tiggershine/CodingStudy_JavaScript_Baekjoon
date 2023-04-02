@@ -3,7 +3,7 @@
 // Input: On the first line, N is given. N is greater than or equal to 1 and less than or equal to 9.
 
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
 const [N] = require('fs')
   .readFileSync('/dev/stdin')

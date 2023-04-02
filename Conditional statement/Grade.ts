@@ -6,7 +6,7 @@
 // D for 60 to 69
 // The test score is an integer greater than or equal to 0 and less than or equal to 100.
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
 const [score] = require('fs').readFileSync('/dev/stdin').toString().trim().split(' ').map(Number);
 

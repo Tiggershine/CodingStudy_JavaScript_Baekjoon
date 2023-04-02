@@ -4,7 +4,7 @@
 // Input: 3\n ACDKJFOWIEGHE\n O\n AB
 // Output: AE\n OO\n AB
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
 const inputString = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 

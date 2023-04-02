@@ -3,9 +3,9 @@
 // For each alphabet, print the first occurrence of a, the first occurrence of b, ... the first occurrence of z, separated by a space.
 // If an alphabet does not occur in a word, print -1. The first letter of the word is position 0, the second letter is position 1.
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
-const [str]: string[] = require('fs').readFileSync('/dev/stdin').toString().split(' ');
+const [str1]: string[] = require('fs').readFileSync('/dev/stdin').toString().split(' ');
 
 let result1: number[]= [];
 
@@ -13,7 +13,7 @@ let result1: number[]= [];
 // String.fromCharCode(i): created from UTF-16 Code units to Char
 // indexOf: return first index from string which char contains
 for (let i = 97; i <= 122; i++) {
-  result1.push(str.indexOf(String.fromCharCode(i)));
+  result1.push(str1.indexOf(String.fromCharCode(i)));
 }
 
 console.log(result1.join(' '));

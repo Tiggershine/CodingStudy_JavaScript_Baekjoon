@@ -4,7 +4,7 @@
 // If A is less than B, then print '<'
 // If A and B are equal, then print '=='
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
 const [A, B] = require('fs').readFileSync('/dev/stdin').toString().split(' ').map(Number);
 

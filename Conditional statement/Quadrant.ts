@@ -3,7 +3,7 @@
 // Assume that both the x- and y-coordinates are positive or negative.
 // −1000 ≤ x ≤ 1000; x ≠ 0, (−1000 ≤ y ≤ 1000; y ≠ 0)
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
 const [X, Y] = require('fs').readFileSync(0).toString().trim().split('\n').map(Number);
 

@@ -4,15 +4,15 @@
 // Two natural numbers A and B are given.(1 <= A,B <= 10000)
 // Print A+B on line 1, A-B on line 2, A*B on line 3, A/B on line 4, and A%B on line 5.
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
-const [A, B] = require('fs').readFileSync('/dev/stdin').toString().split(' ').map(Number);
+const [A3, B3] = require('fs').readFileSync('/dev/stdin').toString().split(' ').map(Number);
 
-const addtion = A + B;
-const substraction = A - B;
-const multiplication = A * B;
-const quotient = Math.floor(A/B);
-const reminder = A % B;
+const addtion = A3 + B3;
+const substraction = A3 - B3;
+const multiplication = A3 * B3;
+const quotient = Math.floor(A3/B3);
+const reminder = A3 % B3;
 
 
 console.log(`${addtion}\n${substraction}\n${multiplication}\n${quotient}\n${reminder}`);

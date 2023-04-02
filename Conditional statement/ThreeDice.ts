@@ -7,7 +7,7 @@
 
 
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
 const throws = require('fs')
   .readFileSync('/dev/stdin')

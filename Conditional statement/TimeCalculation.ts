@@ -2,7 +2,7 @@
 // Write a program to calculate the end time of an oven bake, given a start time and the thime required to bake.
 // Example - Start time: 17 40, duration: 80 -> End time: 19 0
 
-// [ Solution as NodeJS ]
+// [ Solution in NodeJS ]
 
 const input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 
