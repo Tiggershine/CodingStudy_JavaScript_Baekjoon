@@ -9,10 +9,10 @@ Output: 1 4 2 3
 
 const input1 = require('fs').readFileSync('input.txt').toString().split('\n');
 
-const first = input[0].split(' ');
+const first = input1[0].split(' ');
 const index1 = parseInt(first[0]);
 const x = parseInt(first[1]);
-const intArray1: string[] = input[1].split(' ');
+const intArray1: string[] = input1[1].split(' ');
 
 let result: number[] = [];
 
